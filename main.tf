@@ -8,6 +8,6 @@ resource "aws_instance" "foo" {
 
   tags = {
       Name = "TF-Instance1"
-      Env = "develop"
+      Env = "dev"
   }
 }
